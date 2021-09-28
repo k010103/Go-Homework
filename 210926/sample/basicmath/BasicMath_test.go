@@ -36,7 +36,7 @@ func TestMod(t *testing.T) {
 }
 
 func TestDiv(t *testing.T) {
-	expected := 1 + 3
+	expected := 1 / 3
 	got := div(1, 3)
 
 	if expected != got {
